@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+}
+.nav-container {
+  height: 10vh;
+  padding: 10px 80px;
+  background-color: #cbd5e1;
+}
+.logo {
+  height: 40px;
+}
+.option {
+  width: 100%;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+.option-container {
+  height: 43px;
+  border: 1px solid #e2e8f0;
+  border-radius: 5px;
+  width: 80%;
+  flex-grow: 1;
+  margin: auto;
+  font-family: Roboto;
+  outline: none;
+  cursor: pointer;
+  padding-left: 10px;
+}
+@media screen and (min-width: 768px) {
+  .option-container {
+    width: 350px;
+  }
+}
+.project-list-container {
+  list-style: none;
+  padding: 0;
+  margin: 10px 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.project-card {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  margin: 20px;
+  flex: 1 0 250px;
+  border-radius: 8px;
+}
+@media screen and (min-width: 768px) {
+  .project-card {
+    margin-right: 24px;
+    margin-bottom: 20px;
+    max-width: 250px;
+  }
+}
+.card-image {
+  width: 100%;
+  height: 150px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.card-heading {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #000000;
+  margin: 14px 10px 30px;
+  font-weight: 500;
+}
+.fail-con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+.ima {
+  height: 275px;
+  width: 350px;
+}
+.heading {
+  color: #475569;
+  font-size: 42px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin-bottom: 7px;
+}
+.para {
+  color: #475569;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.but {
+  background-color: #328af2;
+  color: #ffffff;
+  padding: 7px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+}
